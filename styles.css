@@ -1,0 +1,85 @@
+/* Basic styles for the body element */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Sets the font family for the entire page */
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding within the body */
+    background-color: #f9f9f9; /* Sets a light gray background color for the body */
+    color: #333; /* Sets the text color to dark gray */
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    position: relative; /* Establishes a positioning context for absolutely positioned child elements, such as the slider */
+    width: 100%; /* Makes the navbar take up the full width of the viewport */
+    background: #fff; /* Sets the background color of the navbar to white */
+    border-bottom: 1px solid #e0e0e0; /* Adds a light gray bottom border to the navbar */
+}
+
+/* Styles for the navigation items container */
+#nav-items {
+    list-style: none; /* Removes default list styling (bullets) */
+    display: flex; /* Uses flexbox layout to arrange items in a row */
+    justify-content: center; /* Centers the nav items horizontally within the container */
+    margin: 0; /* Removes default margin around the container */
+    padding: 15px 0; /* Adds vertical padding above and below the nav items */
+    position: relative; /* Allows absolutely positioned children (like the slider) */
+}
+
+/* Styles for individual navigation items */
+.nav-item {
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over items */
+    font-size: 1rem; /* Sets the font size of the nav items (1rem = 16px by default, can scale with root font size) */
+    font-weight: normal; /* Sets the font weight to normal */
+    color: #333; /* Sets the default text color for the nav items */
+    margin: 0 20px; /* Adds horizontal margin between nav items */
+    letter-spacing: 0; /* No additional letter spacing applied */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition effects for color and transform changes */
+}
+
+/* Styles for hover and active states of nav items */
+.nav-item:hover,
+.nav-item.active {
+    color: #555; /* Changes text color to a lighter gray when hovered or active */
+}
+
+/* Styles for the sliding indicator under the nav items */
+#slider {
+    position: absolute; /* Positions the slider absolutely within the navbar */
+    bottom: -1px; /* Places the slider just below the navbar */
+    height: 1px; /* Sets the height of the slider */
+    background-color: #333; /* Sets the slider's color to dark gray */
+    width: 0; /* Initializes the slider width to zero */
+    transition: all 0.3s ease; /* Smooth transition effect for all properties of the slider */
+}
+
+/* Styles for the city time display */
+#city-time {
+    margin-top: 20px; /* Adds margin above the city time display */
+    text-align: center; /* Centers the text within the city time display */
+    font-size: 1rem; /* Sets the font size of the city time display (1rem = 16px by default, scales with root font size) */
+    color: #333; /* Sets the text color for the city time display */
+}
+
+/* Media query for tablet-sized screens (max-width: 768px) */
+@media (max-width: 768px) {
+    #nav-items {
+        flex-direction: column; /* Stacks nav items vertically in a column layout */
+        align-items: center; /* Centers items horizontally in the column layout */
+    }
+
+    .nav-item {
+        padding: 10px 0; /* Adds vertical padding above and below nav items */
+        font-size: 0.9rem; /* Slightly reduces font size for nav items on tablets (0.9rem = 14.4px by default) */
+    }
+
+    #slider {
+        height: 2px; /* Increases the slider's height for better visibility on tablets */
+    }
+}
+
+/* Media query for mobile-sized screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .nav-item {
+        font-size: 0.8rem; /* Further reduces font size for nav items on mobile devices (0.8rem = 12.8px by default) */
+    }
+}

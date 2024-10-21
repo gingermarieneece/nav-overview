@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Defines the document type as HTML5, which helps browsers render the page correctly -->
+<html lang="en">
+  <!-- Specifies the language of the document as English, aiding search engines and accessibility tools -->
+
+  <head>
+    <!-- The head section contains metadata, links to stylesheets, and other resources for the document -->
+
+    <meta charset="UTF-8" />
+    <!-- Specifies the character encoding as UTF-8, which supports a wide range of characters and symbols from various languages -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures that the webpage is responsive and adjusts its layout based on the width of the device's screen -->
+
+    <title>City Navigation</title>
+    <!-- The title of the webpage, which is displayed on the browser tab and used by search engines -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Links to an external CSS file (styles.css) for applying styles to the webpage -->
+  </head>
+
+  <body>
+    <!-- The body section contains all the visible content that users interact with on the webpage -->
+
+    <div class="navbar">
+      <!-- The navigation bar that holds the navigation items and the sliding indicator -->
+
+      <ul id="nav-items"></ul>
+      <!-- An unordered list (ul) that will be dynamically populated with navigation items using JavaScript -->
+
+      <div id="slider"></div>
+      <!-- A div element that serves as a sliding indicator to visually represent the active navigation item -->
+    </div>
+
+    <div id="city-time"></div>
+    <!-- A div element that displays the current time for the selected city, updated dynamically based on user selection -->
+
+    <script src="script.js"></script>
+    <!-- Links to an external JavaScript file (script.js) that implements the dynamic functionality, such as populating the navigation items, updating the slider position, and displaying the current city time -->
+  </body>
+</html>
