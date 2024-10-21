@@ -11,7 +11,47 @@ You're building an interactive editorial piece about cities around the world and
 ### Bonus
 Display the current time of the selected city. You have creative license on how this should look and behave.
 
-https://github.com/user-attachments/assets/6c04d2e0-821d-4d65-89a7-cd4e3bd79097
+## JSON Data
+```json
+{
+  "cities": [
+    {
+      "section": "cupertino",
+      "label": "Cupertino"
+    },
+    {
+      "section": "new-york-city",
+      "label": "New York City"
+    },
+    {
+      "section": "london",
+      "label": "London"
+    },
+    {
+      "section": "amsterdam",
+      "label": "Amsterdam"
+    },
+    {
+      "section": "tokyo",
+      "label": "Tokyo"
+    },
+    {
+      "section": "hong-kong",
+      "label": "Hong Kong"
+    },
+    {
+      "section": "sydney",
+      "label": "Sydney"
+    }
+  ]
+}
+```
+
+
+https://github.com/user-attachments/assets/bd049c80-de56-4d62-a926-7909682c526b
+
+
+
 
 ## Steps to Run the Project
 1. Clone this repository to your local machine.
