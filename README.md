@@ -11,11 +11,7 @@ You're building an interactive editorial piece about cities around the world and
 ### Bonus
 Display the current time of the selected city. You have creative license on how this should look and behave.
 
-![City Navigation](
-
-https://github.com/user-attachments/assets/967b3798-f3b7-4b89-b962-4e84ed16d9e7
-
-)
+![City Navigation](https://github.com/user-attachments/assets/967b3798-f3b7-4b89-b962-4e84ed16d9e7)
 
 ## Steps to Run the Project
 1. Clone this repository to your local machine.
