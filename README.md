@@ -1,20 +1,25 @@
-# City Navigation Overview
+# Nav Overview
 
 ## Scenario
-You're building an interactive editorial piece about cities around the world and want to include a navigation component that allows readers to learn about different cities. Create a simple, minimalist navigation bar based on the video example and JSON file provided. The navigation bar should include a sliding indicator that shows the selected item and resizes to match the width of the selected item text.
+You're building an interactive editorial piece about cities around the world and want to include a navigation component that will allow the reader to learn about a different city. Create a simple, minimalist navigation bar based on the video example and JSON file provided. Match the design as closely as you can. The navigation bar should have a sliding bar that indicates a selected item, and that bar should resize itself to match the width of the selected item text.
 
-## Requirements
-- The navigation bar must:
-  - Update the sliding indicator's position and size to match the text on window resize.
-  - Be optimized for Safari; support for other browsers is not necessary.
-  - Limit library usage, using ES6 and CSS as much as possible. SASS is permissible.
+- On resize, the sliding indicator bar should update its position and size to match the text.
+- Code should be optimized for Safari. Support for other browsers is not necessary.
+- Please limit library usage. ES6 and CSS as much as possible. SASS is permissible.
 - You will have 24 hours to complete the exercise.
 
-## Bonus
-- Display the current time of the selected city. You have creative license on how this should look and behave.
+### Bonus
+Display the current time of the selected city. You have creative license on how this should look and behave.
 
-## Features
-- Dynamic navigation items generated from a JSON file.
-- A sliding indicator that reflects the currently selected city.
-- Responsive design that adjusts on window resize.
-- Current time display for the selected city.
+## Steps to Run the Project
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Open the `index.html` file in Safari to view the navigation component.
+
+## Usage
+- Click on any city in the navigation bar to see the sliding indicator update and the current time for that city.
+
+## Technologies Used
+- HTML
+- CSS (SASS)
+- JavaScript (ES6)
