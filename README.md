@@ -18,8 +18,3 @@ You're building an interactive editorial piece about cities around the world and
 - A sliding indicator that reflects the currently selected city.
 - Responsive design that adjusts on window resize.
 - Current time display for the selected city.
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
